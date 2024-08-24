@@ -1,0 +1,9 @@
+stages:
+  - test
+
+pytest:
+  stage: test
+  image: python:3.x  # Specify your desired Python version
+  script:
+    - pip install -r requirements.txt
+    - pytest
