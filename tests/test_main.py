@@ -9,3 +9,6 @@ def test_sub():
 
 def test_multiply():
     assert obj.multiply(2,2)==4
+
+def test_div():
+    assert obj.divide(5,2)==2.5
